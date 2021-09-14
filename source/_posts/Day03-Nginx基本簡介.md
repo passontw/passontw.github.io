@@ -51,6 +51,24 @@ tags:
   $ yarn install && yarn build && cp -a ./build/** /var/www/html/home.tomas.website
 ```
 
+## Nginx 的設定檔
+
+Nginx 的功能如 負載平衡... 等 都是透過 config file 來設定的
+
+Nginx 的主要設定檔通常會放置在 `/etc/nginx/nginx.conf`
+
+另外在 `/etc/nginx/conf.d/*.conf` 則會放置不同域名的 config file
+
+例如： `/etc/nginx/conf.d/home.tomas.website.conf`
+
+然後在主設定檔中的 http context 加入一行
+
+```
+include /etc/nginx/conf.d/*.conf
+```
+
+即可將不同域名的設定引入，達成方便管理與修改不同域名設定的特性
+
 ## 增加 Nginx 範例檔
 
 ```
