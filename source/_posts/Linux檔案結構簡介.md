@@ -1,8 +1,8 @@
 ---
-title: Day02-Linux檔案結構簡介
+title: Linux檔案結構簡介
 date: 2021-09-07 17:40:37
 tags:
-  - 2021鐵人賽
+  - Linux
 ---
 
 # Linux

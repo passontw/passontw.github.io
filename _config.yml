@@ -4,7 +4,7 @@
 
 # Site
 title: 帕斯昂
-subtitle: 帕斯昂的後庭花
+subtitle: 帕斯昂的筆記本 
 description: 整理技術或非技術的雜紀
 keywords: 帕斯昂
 author: Passon
@@ -97,7 +97,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: yearn
+theme: ayer
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
